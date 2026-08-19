@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	//FaÁa um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
+	//Fa√ßa um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
 	
 	int ano , idade , eano ;
 	
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 	printf("Voce nasceu no ano = %d",eano);
 	printf("\n");
 
-	//Leia uma velocidade em km/h (quilÙmetros por hora) e apresente convertida em m/s (metros por segundo). A fÛrmula de convers„o È M = K/3,6, sendo K a velocidade em km/h e M em m/s.
+	//Leia uma velocidade em km/h (quil√¥metros por hora) e apresente convertida em m/s (metros por segundo). A f√≥rmula de convers√£o √© M = K/3,6, sendo K a velocidade em km/h e M em m/s.
 	
 	float km, ms;
 	
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("A velocidade %f em km/h tem valor de %f em m/s",km,ms);
 	printf("\n");
-	//FaÁa um programa que leia um valor em reais e a cotaÁ„o do dÛlar. Em seguida, imprima o valor correspondente em dÛlares.
+	//Fa√ßa um programa que leia um valor em reais e a cota√ß√£o do d√≥lar. Em seguida, imprima o valor correspondente em d√≥lares.
 	
 	float real , cota , dolar;
 	
@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
 	printf("Convertendo %.2f reais em dolar na cotacao atual voce tera um valor de = %.2f",real,dolar);
 	printf("\n");
 	//Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. 
-	//A fÛrmula de convers„o È: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+	//A f√≥rmula de convers√£o √©: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 	
 	float c , f;
 	
@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
     printf("%.2f em celsius em fahrenheit tem valor de = %.2f",c,f);
     printf("\n");
     
-    //Leia um ‚ngulo em graus e apresente-o convertido em radianos. A fÛrmula de convers„o È R = G * p/180, sendo G o ‚ngulo em graus e R em radianos e p = 3.141592.
+    //Leia um √¢ngulo em graus e apresente-o convertido em radianos. A f√≥rmula de convers√£o √© R = G * p/180, sendo G o √¢ngulo em graus e R em radianos e p = 3.141592.
 	 
     float grau , radiano ;
     
@@ -85,7 +85,7 @@ int main(int argc, char *argv[]) {
     printf("O seu angulo %.2f em radianos tem valor de = %.2f",grau,radiano);
 	printf("\n");
 	
-	//FaÁa um programa que leia um n˙mero inteiro e retorne seu antecessor e seu sucessor.
+	//Fa√ßa um programa que leia um n√∫mero inteiro e retorne seu antecessor e seu sucessor.
 	
 	int num , ant , suc ;
 	
@@ -98,11 +98,11 @@ int main(int argc, char *argv[]) {
 	printf("O antecessor e o sucessor desse numero sao respectivamente = %d e %d",ant,suc);
 	printf("\n");
 	
-	/*A import‚ncia de R$ 780.000,00 ser· dividida entre trÍs ganhadores de um concurso, sendo que:
+	/*A import√¢ncia de R$ 780.000,00 ser√° dividida entre tr√™s ganhadores de um concurso, sendo que:
 
-   O primeiro receber· 46% do total.
-   O segundo receber· 32% do total.
-   O terceiro receber· o restante.
+   O primeiro receber√° 46% do total.
+   O segundo receber√° 32% do total.
+   O terceiro receber√° o restante.
 
   Calcule e imprima a quantia recebida por cada um dos ganhadores.*/
 
@@ -116,7 +116,7 @@ int main(int argc, char *argv[]) {
     printf("O primeiro ganhador recebera = %f \no segundo ganhador recebera = %f \ne o terceiro ganhador ganhara= %f",g1,g2,g3);
 	printf("\n");
 	
-	//Leia um valor inteiro, que È o tempo de duraÁ„o em segundos de um determinado evento em uma f·brica, e informe-o expresso no formato horas:minutos:segundos
+	//Leia um valor inteiro, que √© o tempo de dura√ß√£o em segundos de um determinado evento em uma f√°brica, e informe-o expresso no formato horas:minutos:segundos
 	
 	int tempo, hr , min , sec;
 	
@@ -130,10 +130,10 @@ int main(int argc, char *argv[]) {
 	printf("Este tempo no formato de (00:00:00) e igual a = %.0d:%.0d:%.0d",hr,min,sec);
 	printf("\n");
 	
-	/*Joaozinho quer calcular e mostrar a quantidade de litros de combustÌvel gastos em uma viagem, ao utilizar um automÛvel que faz 12 KM/L. 
-	Para isso, ele gostaria que vocÍ o auxiliasse atravÈs de um simples programa. Para efetuar o c·lculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade mÈdia durante a mesma (em km/h). 
-	Assim, pode-se obter a dist‚ncia percorrida e, em seguida, calcular quantos litros seriam necess·rios. 
-	Mostre o valor com 3 casas decimais apÛs o ponto.*/
+	/*Joaozinho quer calcular e mostrar a quantidade de litros de combust√≠vel gastos em uma viagem, ao utilizar um autom√≥vel que faz 12 KM/L. 
+	Para isso, ele gostaria que voc√™ o auxiliasse atrav√©s de um simples programa. Para efetuar o c√°lculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade m√©dia durante a mesma (em km/h). 
+	Assim, pode-se obter a dist√¢ncia percorrida e, em seguida, calcular quantos litros seriam necess√°rios. 
+	Mostre o valor com 3 casas decimais ap√≥s o ponto.*/
 
 	float distancia , vlm , time, gasosa ;
 	
@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
     printf("Joaozinho ira gastar %.3f litros de combustivel nessa viagem",gasosa);
 	printf("\n");
 	
-	//FaÁa um programa que leia trÍs valores e apresente o maior dos trÍs valores lidos seguido da mensagem ìeh o maiorî
+	//Fa√ßa um programa que leia tr√™s valores e apresente o maior dos tr√™s valores lidos seguido da mensagem ‚Äúeh o maior‚Äù
 	
     int x, y, z, maiorXY, maior;
 
