@@ -129,7 +129,7 @@ int main(int argc, char *argv[]) {
 	    scanf("%f",&y2);
 	    
 	distancia = sqrt(pow((x2-x1),2)+pow((y2-y1),2));
-	  printf("A distancia entre os pontos tem valor de = %f",distancia);
+	  printf("A distancia entre os pontos tem valor de = %.2f",distancia);
 	  
 	return 0;
 	
