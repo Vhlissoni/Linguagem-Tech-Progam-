@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+tipo nome (lista de parametros){
+       comandos
+       comandos....
+}
+
+*/
+void exec2 (){
+	float reais, cota;
+		printf("Insira a cotação e o valor: \n");
+	    scanf("%f %f",&cota , &reais);
+	    printf("Os %f reais sao %f doletas \n",reais , (reais/cota));
+}
+void exec3 (){
+	
+	float tempC, tempF;
+		printf("Insira a temperatura em C°: \n");
+	    scanf("%f",&tempC);
+	    tempF = tempF * (9.0/5.0) + 32.0;
+	    printf("Os %f C° sao %f F° \n",tempC,tempF );
+}
+void exec8 (){
+	int sec , horas , min;
+		printf("Insira o tempo em segundos:");
+	    scanf(" %d ",&sec);
+	    horas = sec/3600;
+	    min = (sec - (sec%3600))/60;
+	    sec = sec -((horas*3600) + (min*60));
+	    printf("\t %d:%d:%d",horas, min , sec);
+}
+
+int main(int argc, char *argv[]) {
+	
+	int op ;
+	printf("Insia qual exercicio quer resolver [2,3,8]: ");
+	scanf("%d",&op);
+	
+	switch (op) {
+	
+	case 2:
+		exec2 ();
+	break;
+	//
+	case 3:
+		exec3();
+    break;
+    //
+    case 8:
+	    exec8 ();
+	break;	
+}
+	
+	return 0;
+}
