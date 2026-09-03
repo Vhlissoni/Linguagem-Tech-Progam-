@@ -10,17 +10,17 @@ tipo nome (lista de parametros){
 */
 void exec2 (){
 	float reais, cota;
-		printf("Insira a cotação e o valor: \n");
+		printf("Insira a cotaÃ§Ã£o e o valor: \n");
 	    scanf("%f %f",&cota , &reais);
 	    printf("Os %f reais sao %f doletas \n",reais , (reais/cota));
 }
 void exec3 (){
 	
 	float tempC, tempF;
-		printf("Insira a temperatura em C°: \n");
+		printf("Insira a temperatura em CÂ°: \n");
 	    scanf("%f",&tempC);
 	    tempF = tempF * (9.0/5.0) + 32.0;
-	    printf("Os %f C° sao %f F° \n",tempC,tempF );
+	    printf("Os %f CÂ° sao %f FÂ° \n",tempC,tempF );
 }
 void exec8 (){
 	int sec , horas , min;
