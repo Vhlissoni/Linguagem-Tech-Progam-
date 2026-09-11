@@ -43,9 +43,9 @@ int main(int argc, char *argv[]) {
     printf("==============================================\n");
 	printf("        RECIBO DE PAGAMENTO DE SALARIO     \n");
 	printf("==============================================\n");
-	printf("SALARIO BRUTO (Horas x Valor):    R$ %f \n", salario);
-	printf("(-) DESCONTO INSS:                R$ %f \n", calc_inss(salario));
-	printf("(-) DESCONTO IRPF:                R$ %f \n" , calc_irpf(salario_desc));
+	printf("SALARIO BRUTO (Horas x Valor):    R$ %2.f \n", salario);
+	printf("(-) DESCONTO INSS:                R$ %.2f \n", calc_inss(salario));
+	printf("(-) DESCONTO IRPF:                R$ %2.f \n" , calc_irpf(salario_desc));
 	printf("---------------------------------------------- \n");
 	printf("LIQUIDO A RECEBER:                R$ %f",salari_liq);
 	
