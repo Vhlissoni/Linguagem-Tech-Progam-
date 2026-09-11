@@ -15,8 +15,8 @@ float calc_inss ( float salario){
 }
 
 float calc_irpf (float salario_desc){
-	
-   if (salario_desc <= 2826.65) return (salario_desc * 0.075) - dedu1;
+	    if (salario_desc <= 2259.20) return 0 ; 
+   else if (salario_desc <= 2826.65) return (salario_desc * 0.075) - dedu1;
    else if (salario_desc <= 3751.05) return (salario_desc * 0.15) - dedu2;
    else if (salario_desc <= 4664.68) return (salario_desc * 0.225) - dedu3;
    else return (salario_desc * 2.75) - dedu4;
