@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define  pi 3.141592
-//programa que pede o raio de um cÌrculo qualquer para o usu·rio e calcula a ·rea do mesmo
+//programa que pede o raio de um c√≠rculo qualquer para o usu√°rio e calcula a √°rea do mesmo
 int main(int argc, char *argv[]) {
 	
 	float areaC, raio,altura, baseMenor, baseMaior, areaT;
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
    	
     printf("Agora vamos calcular a area de um trapezio!!! \n ");
 	
-	//calcular a area de um trapezio com a mesma metodologia de inserÁ„o de informaÁ„o pelo usu·rio
+	//calcular a area de um trapezio com a mesma metodologia de inser√ß√£o de informa√ß√£o pelo usu√°rio
 	printf("Digite a altura do trapezio = ");
 	 scanf("%f",&altura);
 	
