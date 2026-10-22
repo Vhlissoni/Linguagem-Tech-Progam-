@@ -26,14 +26,12 @@ int main(int argc, char *argv[]) {
 	j = j - 1; 
 	
 	
-	for (i = 0; i < j; i++) {
+	for (i = 0; i < j; i++,j--) {
 		
 		if (palavra[i] != palavra[j]) {
 			pal = 0; 
 			
 		}
-		
-		j--; 
 	}
 	
 	
