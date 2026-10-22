@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
 		
 		if (palavra[i] != palavra[j]) {
 			pal = 0; 
-			
+			break;
 		}
 	}
 	
